@@ -7,7 +7,7 @@ django 個人網頁
       github基本教學 - 從無到有
       https://www.youtube.com/watch?v=py3n6gF5Y00
 
-2.（要產生 SSH keys 才能和 Github 帳戶做配對）
+2. 要產生 SSH keys 才能和 Github 帳戶做配對
       git 1: SSH keys for KTH GitHub
       https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
   
@@ -23,7 +23,8 @@ django 個人網頁
       ssh-add ~/.ssh/id_rsa       ->  會出現 Identity added: /home/testchia/.ssh/id_rsa (/home/testchia/.ssh/id_rsa)
 
 3. 配對完後，如何開始利用它來做事，操作如下：
-  
+      開啟終端機輸入以下指令：
+            git clone https://github.com/bessyhuang/django-personalsite.git   ->這裡的 URL 就是步驟1.的時候所產生的 URL。
 
 
 

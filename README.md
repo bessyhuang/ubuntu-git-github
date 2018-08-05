@@ -50,5 +50,5 @@
             git add "你新增的東西"
             git status
             git commit -m "註記"
-            git push -u origin master     -> 上傳 Github 
+            git push origin master     -> 上傳 Github 
   

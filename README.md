@@ -3,7 +3,7 @@ django 個人網頁
 
 >>  Ubuntu 操作
 
-1.產生 SSH keys
+1.產生 SSH keys 才能和 Github 帳戶做配對
   git 1: SSH keys for KTH GitHub
   https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
 

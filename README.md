@@ -3,7 +3,7 @@ django 個人網頁
 
 >>  Ubuntu 操作
 
-1.先有 Github 帳戶，並 Create a new repository，點擊 Clone or download 中 Clone with HTTPS 的 URL，先把它複製下來。
+1. 先有 Github 帳戶，並 Create a new repository，點擊 Clone or download 中 Clone with HTTPS 的 URL，先把它複製下來。
   github基本教學 - 從無到有
   https://www.youtube.com/watch?v=py3n6gF5Y00
 
@@ -22,7 +22,7 @@ django 個人網頁
     eval "$(ssh-agent -s)"
     ssh-add ~/.ssh/id_rsa       ->  會出現 Identity added: /home/testchia/.ssh/id_rsa (/home/testchia/.ssh/id_rsa)
 
-3.產生 SSH keys 才能和 Github 帳戶做配對
+3. 產生 SSH keys 才能和 Github 帳戶做配對
 
 
 

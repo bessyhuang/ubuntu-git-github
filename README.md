@@ -1,4 +1,4 @@
-# django-personalsite
+# ubuntu-git-github
 django 個人網頁
 
 >>  Ubuntu 操作

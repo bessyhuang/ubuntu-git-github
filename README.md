@@ -44,5 +44,12 @@ django 個人網頁
             
       接下來就可以在這個資料夾底下放東西，如程式碼，之後再把它傳上雲端的 Github 就可以了。
 
-5.
+5. 先用終端機再進入該資料夾，進而把它傳上雲端的 Github 帳戶中。
+      開啟終端機輸入以下指令：
+            cd django-personalsite
+            git status
+            git add "你新增的東西"
+            git status
+            git commit -m "註記"
+            git push -u origin master     -> 上傳雲端的 Github 
   

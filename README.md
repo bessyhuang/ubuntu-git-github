@@ -17,8 +17,8 @@ django 個人網頁
    開啟終端機輸入以下指令：
       sudo apt-get install git
       git --version
-      $ git config --global user.name "GitHub 帳戶的帳號"
-      $ git config --global user.email "GitHub 帳戶的信箱"
+      git config --global user.name "GitHub 帳戶的帳號"
+      git config --global user.email "GitHub 帳戶的信箱"
 
 
 3. 要產生 SSH keys 才能和 Github 帳戶做配對
@@ -38,10 +38,11 @@ django 個人網頁
 
 4. 配對完後，如何開始利用它來做事，操作如下：
       開啟終端機輸入以下指令：
-            mkdir
+            mkdir git_workspace     ->在電腦上建立工作資料夾
+            cd git_workspace
             git clone https://github.com/bessyhuang/django-personalsite.git   ->這裡的 URL 就是步驟1.的時候所產生的 URL。
+            
+      接下來就可以在這個資料夾底下放東西，如程式碼，之後再把它傳上雲端的 Github 就可以了。
 
-
-
-2.
+5.
   

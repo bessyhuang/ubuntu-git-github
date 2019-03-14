@@ -67,7 +67,8 @@ git push origin master     -> 上傳 Github
 ```
 ---
 
-## 【分支】使用教學：http://tech-marsw.logdown.com/blog/2013/08/16/git-notes-github
+## 【分支】使用教學：
+* http://tech-marsw.logdown.com/blog/2013/08/16/git-notes-github
 
 ### 1. 本機端初始化
 ```

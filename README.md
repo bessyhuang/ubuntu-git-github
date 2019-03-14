@@ -51,4 +51,39 @@
             git status
             git commit -m "註記"
             git push origin master     -> 上傳 Github 
-  
+
+## 【分支】使用教學：http://tech-marsw.logdown.com/blog/2013/08/16/git-notes-github
+
+### 本機端初始化
+> sudo apt-get install git-all
+> git config --global user.name "chia"
+> git config --global user.email "404040523@gapp.fju.edu.tw"
+
+### 開始來寫code啦！
+> git clone https://github.com/bessyhuang/myaccounts.git
+> cd myaccounts/
+
+### 生一個新branch名叫v1
+> git branch v1
+
+### 切換到v1這個branch上
+> git checkout v1
+
+### ~~ 開始來寫code啦!!! 隨意修改增刪檔案 ~~
+
+### 看修改了哪些檔案
+> git status
+> git add --all
+> git status
+
+### 註解要寫清楚 完成一個小功能就要commit一次
+> git commit -m "Change from SQLite to MySQL"
+
+### 合併->push到Github上
+> git checkout master
+
+### 把v1和master merge起來
+> git merge v1
+
+### 接著輸入Github的帳號密碼，同步到Github上了
+> git push

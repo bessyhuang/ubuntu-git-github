@@ -3,14 +3,11 @@
 ## Ubuntu 操作
 
 ### 1. 先有 Github 帳戶，並 Create a new repository，點擊 Clone or download 中 Clone with HTTPS 的 URL，先把它複製下來。
-
 `github基本教學 - 從無到有` https://www.youtube.com/watch?v=py3n6gF5Y00
 
 
 ### 2. Ubuntu 安裝 Git https://git-scm.com/download/linux
-      
-```How to Install and Configure Git and GitHub on Ubuntu 18.04 (Linux)```
-https://www.youtube.com/watch?v=ZMgLZUYd8Cw
+`How to Install and Configure Git and GitHub on Ubuntu 18.04 (Linux)` https://www.youtube.com/watch?v=ZMgLZUYd8Cw
    
 * 開啟終端機輸入以下指令：
 > sudo apt-get install git
@@ -23,9 +20,7 @@ https://www.youtube.com/watch?v=ZMgLZUYd8Cw
 
 
 ### 3. 要產生 SSH keys 才能和 Github 帳戶做配對
-
-```git 1: SSH keys for KTH GitHub```
-https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
+`git 1: SSH keys for KTH GitHub` https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
   
 * 先開啟終端機輸入以下指令：
 > ssh-keygen -t rsa -b 4096 -C "你註冊的電子信箱"
@@ -70,41 +65,39 @@ https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
 
 ## 【分支】使用教學：http://tech-marsw.logdown.com/blog/2013/08/16/git-notes-github
 
-### 本機端初始化
+### 1. 本機端初始化
 > sudo apt-get install git-all
 
 > git config --global user.name "chia"
 
 > git config --global user.email "404040523@gapp.fju.edu.tw"
 
-### 開始來寫code啦！
 > git clone https://github.com/bessyhuang/myaccounts.git
 
 > cd myaccounts/
 
-### 生一個新branch名叫v1
+### 2. 生一個新branch名叫v1
 > git branch v1
 
-### 切換到v1這個branch上
+### 3. 切換到v1這個branch上
 > git checkout v1
 
-### ~~ 開始來寫code啦!!! 隨意修改增刪檔案 ~~
+### 4. ~~ 開始來寫code啦!!! 隨意修改增刪檔案 ~~
 
-### 看修改了哪些檔案
+### 5. 看修改了哪些檔案
 > git status
 
 > git add --all
 
 > git status
 
-### 註解要寫清楚 完成一個小功能就要commit一次
-> git commit -m "Change from SQLite to MySQL"
+> git commit -m "Change from SQLite to MySQL"  //註解要寫清楚 完成一個小功能就要commit一次
 
-### 合併->push到Github上
+### 6. 合併->push到Github上
 > git checkout master
 
-### 把v1和master merge起來
+### 7. 把v1和master merge起來
 > git merge v1
 
-### 接著輸入Github的帳號密碼，同步到Github上了
+### 8. 接著輸入Github的帳號密碼，同步到Github上了
 > git push

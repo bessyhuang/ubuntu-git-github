@@ -5,7 +5,7 @@
 ### 1. 先有 Github 帳戶，並 Create a new repository，點擊 Clone or download 中 Clone with HTTPS 的 URL，先把它複製下來。
 
 * `github基本教學 - 從無到有` 
-   https://www.youtube.com/watch?v=py3n6gF5Y00
+https://www.youtube.com/watch?v=py3n6gF5Y00
 
 
 ### 2. Ubuntu 安裝 Git https://git-scm.com/download/linux

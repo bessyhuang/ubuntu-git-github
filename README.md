@@ -1,14 +1,14 @@
 # ubuntu-git-github
 
->>  Ubuntu 操作
+## Ubuntu 操作
 
-1. 先有 Github 帳戶，並 Create a new repository，點擊 Clone or download 中 Clone with HTTPS 的 URL，先把它複製下來。
+### 1. 先有 Github 帳戶，並 Create a new repository，點擊 Clone or download 中 Clone with HTTPS 的 URL，先把它複製下來。
 
 ```github基本教學 - 從無到有```
 https://www.youtube.com/watch?v=py3n6gF5Y00
 
 
-2. Ubuntu 安裝 Git 
+### 2. Ubuntu 安裝 Git 
 
 https://git-scm.com/download/linux
       
@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=ZMgLZUYd8Cw
 > git config --global user.email "GitHub 帳戶的信箱"
 
 
-3. 要產生 SSH keys 才能和 Github 帳戶做配對
+### 3. 要產生 SSH keys 才能和 Github 帳戶做配對
 
 ```git 1: SSH keys for KTH GitHub```
 https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
 
 > ssh-add ~/.ssh/id_rsa       ->  會出現 Identity added: /home/testchia/.ssh/id_rsa (/home/testchia/.ssh/id_rsa)
 
-4. 配對完後，如何開始利用它來做事，操作如下：
+### 4. 配對完後，如何開始利用它來做事，操作如下：
 
 * 開啟終端機輸入以下指令：
 > mkdir git_workspace     ->在電腦上建立工作資料夾
@@ -55,7 +55,7 @@ https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
             
 * 接下來就可以在這個資料夾底下放東西，如程式碼，之後再把它傳上雲端的 Github 就可以了。
 
-5. 先用終端機再進入該資料夾，進而把它傳上雲端的 Github 帳戶中。
+### 5. 先用終端機再進入該資料夾，進而把它傳上雲端的 Github 帳戶中。
 * 開啟終端機輸入以下指令：
 > cd django-personalsite
 
@@ -69,6 +69,7 @@ https://www.youtube.com/watch?v=Sp5AASmX4no&index=46&t=0s&list=WL
 
 > git push origin master     -> 上傳 Github 
 
+---
 
 ## 【分支】使用教學：http://tech-marsw.logdown.com/blog/2013/08/16/git-notes-github
 
